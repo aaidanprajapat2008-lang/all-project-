@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> shoes </title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="https://codeyogi.io/nike.png" alt="logo" />
+            <div>
+                <a>HOME</a>
+                <a>PRODUCTS</a>
+                <a>ORDER</a>
+                <a>CONTACTUS</a>
+            </div>
+        </div>
+        <div id="main">
+            <div class="card">
+                <img src="https://codeyogi.io/nike_1.jpg" alt="logo" />
+                <div class="vard">
+                    <h2>Nike Air Force 1</h2>
+                    <p>
+                        Themes and styles also help keep your document coordinated. When you
+                        click Design and choose a new Theme, the pictures, charts, and
+                        SmartArt graphics change to match your new theme.
+                    </p>
+                    <button>Price-87.99$</button>
+                    <a>more details..</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://codeyogi.io/nike_2.jpeg" alt="logo" />
+                <div class="vard">
+                    <h2>Nike Robin 1</h2>
+                    <p>
+                        Themes and styles also help keep your document coordinated. When you
+                        click Design and choose a new Theme, the pictures, charts, and
+                        SmartArt graphics change to match your new theme.
+                    </p>
+                    <button>Price-91.99$</button>
+                    <a>more details..</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://codeyogi.io/nike_3.jpg" alt="logo" />
+                <div class="vard">
+                    <h2>Nike Blander 2</h2>
+                    <p>
+                        Themes and styles also help keep your document coordinated. When you
+                        click Design and choose a new Theme, the pictures, charts, and
+                        SmartArt graphics change to match your new theme.
+                    </p>
+                    <button>Price-63.99$</button>
+                    <a>more details..</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://codeyogi.io/nike_4.jpg" alt="logo" />
+                <div class="vard">
+                    <h2>Nike aster 1</h2>
+                    <p>
+                        Themes and styles also help keep your document coordinated. When you
+                        click Design and choose a new Theme, the pictures, charts, and
+                        SmartArt graphics change to match your new theme.
+                    </p>
+                    <button>Price-49.99$</button>
+                    <a>more details..</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Find a store near you ?</p>
+            <div class="img-box">
+                <img src="https://codeyogi.io/twitter.png" alt="logo" />
+                <img src="https://codeyogi.io/instagram.png" alt="logo" />
+                <img src="https://codeyogi.io/youtube.png" alt="logo" />
+                <img src="https://codeyogi.io/facebook.png" alt="logo" />
+            </div>
+            <p>Need and help ?</p>
+        </div>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        a {
+            color: rgb(15 10 145);
+            display: block;
+            padding: 0 0 0 10px;
+        }
+
+        #header {
+            background: green;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+        }
+
+        #header img {
+            width: 50px;
+            padding-left: 10px;
+        }
+
+        #main {
+            box-sizing: border-box;
+            flex-grow: 1;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #footer img {
+            width: 20px;
+            padding: 5px;
+        }
+
+        #footer {
+            background: yellow;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        button,
+        h2 {
+            color: rgb(250 175 15);
+            margin: 10px;
+        }
+
+        button {
+            border: 3px solid black;
+            display: inline-block;
+            border-radius: 999px;
+            padding: 5px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        #container {
+            max-height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            display: flex;
+            border: 5px solid black;
+            border-radius: 5px;
+            max-width: 100%;
+            margin: 20px;
+        }
+
+        .card img {
+            height: 200px;
+            padding: 5px;
+        }
+
+        .vard {
+            height: 200px;
+        }
+
+        p {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        #footer {
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
+    </style>
+
+</body>
+
+</html>
